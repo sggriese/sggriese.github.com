@@ -1,0 +1,122 @@
+/* line 17, content/style/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 21, content/style/screen.scss */
+html, body, #main-container, #sidebar {
+  height: 100%;
+}
+
+/* line 25, content/style/screen.scss */
+html {
+  color: #666666;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 31, content/style/screen.scss */
+body {
+  margin: 0;
+}
+
+/* line 35, content/style/screen.scss */
+p {
+  line-height: 28px;
+}
+
+/* line 39, content/style/screen.scss */
+h1 {
+  color: white;
+  font-family: "Kreon", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 36px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 49, content/style/screen.scss */
+#main-container {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 53, content/style/screen.scss */
+#sidebar {
+  background: url(/images/bwBackground4.jpeg);
+  background-size: 800px;
+  background-position: -180px;
+  float: left;
+  width: 448px;
+  padding-left: 48px;
+  border-right: 1px solid #ccc;
+}
+
+/* line 63, content/style/screen.scss */
+#nav-list {
+  font-size: 30px;
+  list-style: none;
+  font-family: "Kreon", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-left: 0;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 73, content/style/screen.scss */
+#nav-list li {
+  margin-bottom: 18px;
+}
+
+/* line 77, content/style/screen.scss */
+#nav-videos-list {
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  list-style: none;
+  margin-top: 18px;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+/* line 87, content/style/screen.scss */
+.selected {
+  color: white;
+}
+
+/* line 91, content/style/screen.scss */
+#content {
+  float: left;
+  width: 940px;
+  height: 100%;
+  padding: 36px;
+  padding-top: 48px;
+  padding-left: 64px;
+  background: #f6f6f6;
+  -webkit-box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* line 102, content/style/screen.scss */
+h3 {
+  color: #222222;
+  font-family: "Kreon", sans-serif;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 18px;
+  text-shadow: 2px 2px #fff;
+}
+
+/* line 111, content/style/screen.scss */
+#description {
+  color: #666;
+}
+
+/* line 115, content/style/screen.scss */
+#description :first-child {
+  margin-top: 18px;
+}
