@@ -1,0 +1,109 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 10px;
+  background-color: #f7f7f7;
+  padding: 32px 0;
+  padding-top: 48px;
+  min-width: 360px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.stretchy-wrapper {
+  margin: 0 auto;
+  position: relative;
+  width: 82.222222237%;
+  min-width: 480px;
+  padding-bottom: 50%;
+}
+
+div.stretchy-wrapper > iframe {
+  position: absolute;
+  min-width: 480px;
+  min-height: 270px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 48px;
+}
+
+.header {
+  width: 82.222222237%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.logo {
+  float: left;
+  background: url(/images/logo.png) no-repeat;
+  text-indent: -5000px;
+  background-size: contain;
+  display: block;
+  width: 189px;
+  height: 110px;
+}
+
+.contact {
+  float: right;
+  text-align: right;
+  font-size: 1.2rem;
+  font-family: helvetica neue;
+  font-weight: 300;
+}
+
+.channels {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 19px;
+}
+
+.email,
+.channel-link {
+  color: #777;
+  text-decoration: none;
+  transition: color linear 0.15s;
+}
+
+.channel-link {
+  display: inline-block;
+  font-size: 2.4rem;
+}
+
+.youtube:hover {
+  color: orange;
+}
+
+.vimeo:hover {
+  color: blue;
+}
+
+.email:hover {
+  color: black;
+}
+
+.channel-link:first-of-type {
+  margin-right: 40px;
+}
